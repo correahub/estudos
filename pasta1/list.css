@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+ol {
+  list-style-type: decimal-leading-zero;
+  list-style-position: inside;
+}
+
+ol > li {
+  background-color: red;
+}
+
+ol > ul > li {
+  color: rgb(7, 255, 90);
+  background-color: yellow;
+  list-style: decimal-leading-zero inside ;
+}
+
+ol > ol > li {
+  background-color: red;
+  color: blue;
+}
