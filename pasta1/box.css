@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+
+body{
+    width: 80%;
+    margin: auto;
+    background-color: lightblue;
+}
+
+.titulo-h1-principal {
+  background-color: black;
+  color: red;
+  width: 500px;
+  font: 32px arial;
+  border: 10px solid red;
+  box-sizing: border-box;
+
+  
+}
+
+h2{
+    
+    background-color: aqua;
+    font: 32px arial;
+    width: 500px;
+    color: white;
+    
+}
