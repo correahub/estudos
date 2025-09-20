@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body{
+    background-color: lightblue;
+    width: 80%;
+    margin: auto;
+}
+
+h1{
+    background-color: red;
+    text-align: center;
+}
+p{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.p1{
+    display: inline;
+}
+.p2{
+    display: inline-block;
+}
+strong{
+    background-color: red;
+    display: block;
+}
+
