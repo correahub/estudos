@@ -1,0 +1,32 @@
+@charset "UTF-8";
+body {
+  background-color: black;
+  color: red;
+  text-align: center;
+}
+
+h1 {
+  font: italic bolder 100px arial;
+  text-transform: uppercase;
+  background-color: aqua;
+}
+
+p {
+  font: 50px arial;
+  color: yellow;
+}
+
+strong {
+  color: aqua;
+  background-color: white;
+}
+
+h2{
+    font: oblique 80px arial, helvetica, sans-serif;
+    background-color: aqua;
+    color: white;
+}
+
+ul{
+    text-align: left;
+}
