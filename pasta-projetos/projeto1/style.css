@@ -43,4 +43,5 @@ ul > li ul li {
     border: 2px solid black;
     width: 200px;
     text-align: center;
+    padding: 5px;
 }
