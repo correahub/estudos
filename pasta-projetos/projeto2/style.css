@@ -7,17 +7,16 @@ html {
 
 body > header {
   background: url("imagens/bg-3.jpg") center right / cover no-repeat scroll;
-  padding-top: 80px;
-  
+  padding-top: 25px;
 }
 
 nav {
   margin-right: 50px;
-  
 }
 
 ul {
   text-align: right;
+  padding-bottom: 50px;
 }
 
 ul > li {
@@ -37,13 +36,16 @@ ul > li > a {
   letter-spacing: 2px;
 }
 
-/*MENU CONCLUIDO*/
+ul > li > a:hover{
+    background-color: black;
+}
+
 header > div {
   text-align: center;
 }
 
-div{
-    padding-bottom: 80px;
+div {
+  padding-bottom: 80px;
 }
 
 h1 {
@@ -53,10 +55,45 @@ h1 {
 }
 
 div > p {
-    background-color: rgba(0, 0, 0, 0.596);
-    color: white;
-    font-size: 25px;
-    padding: 10px;
-    display: inline-block;
-    border-bottom: 3px solid white;
+  background-color: rgba(0, 0, 0, 0.596);
+  color: white;
+  font-size: 25px;
+  padding: 10px;
+  display: inline-block;
+  border-bottom: 3px solid white;
+}
+/*MENU CONCLUIDO*/
+
+main > section {
+  background-color: #cccccc;
+  padding: 25px 0px 25px 0px;
+}
+
+main > section > article {
+  background-color: white;
+  width: 80%;
+  margin: auto;
+  padding: 5px;
+  margin-top: 25px;
+}
+
+main > section > article > h2 {
+  background-color: #e0dfdf;
+  padding: 10px;
+}
+
+main > section > article > p {
+  padding: 5px;
+  text-align: justify;
+}
+
+article > a {
+  background-color: #cec7c4;
+  padding: 10px;
+  display: block;
+  width: 100px;
+  text-align: center;
+  color: #281ee9;
+  font-weight: 700;
+  text-decoration: none;
 }
