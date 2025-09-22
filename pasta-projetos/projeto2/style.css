@@ -97,3 +97,12 @@ article > a {
   font-weight: 700;
   text-decoration: none;
 }
+
+/*MAIN CONCLUIDO*/
+
+footer{
+    padding: 15px;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.527);
+}
