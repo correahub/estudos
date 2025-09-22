@@ -7,12 +7,12 @@ html {
 
 body > header {
   background: url("imagens/bg-3.jpg") center right / cover no-repeat scroll;
-  padding-top: 25px;
+  padding-top: 1px;
+  height: 500px;
 }
 
 nav {
-  margin-right: 50px;
-
+  margin-right: 25px;
 }
 
 ul {
@@ -23,6 +23,8 @@ ul {
 ul > li {
   display: inline-block;
   list-style: none;
+  margin-top: 10px;
+  border-radius: 10px;
 }
 
 ul > li > a {
@@ -35,10 +37,11 @@ ul > li > a {
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 2px;
+  border-radius: 10px;
 }
 
-ul > li > a:hover{
-    background-color: black;
+ul > li > a:hover {
+  background-color: black;
 }
 
 header > div {
@@ -52,7 +55,8 @@ div {
 h1 {
   font-weight: bolder;
   font-size: 64px;
-  color: rgba(255, 255, 255, 0.884);
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 2px 2px black;
 }
 
 div > p {
@@ -62,6 +66,7 @@ div > p {
   padding: 10px;
   display: inline-block;
   border-bottom: 3px solid white;
+  text-shadow: 1px 2px 1px black;
 }
 /*MENU CONCLUIDO*/
 
@@ -98,13 +103,19 @@ article > a {
   color: #281ee9;
   font-weight: 700;
   text-decoration: none;
+  border-radius: 5px;
+}
+
+article > a:hover {
+  outline: 2px solid black;
+  
 }
 
 /*MAIN CONCLUIDO*/
 
-footer{
-    padding: 15px;
-    text-align: center;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.527);
+footer {
+  padding: 15px;
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.527);
 }
