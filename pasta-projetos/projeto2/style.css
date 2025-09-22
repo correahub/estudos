@@ -85,6 +85,7 @@ main > section > article > h2 {
 main > section > article > p {
   padding: 5px;
   text-align: justify;
+  line-height: 1.5;
 }
 
 article > a {
