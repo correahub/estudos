@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body{
+    background: url("images/bg.jpg") bottom right/cover no-repeat fixed;
+    width: 50%;
+    margin: auto;
+    text-align: justify;
+    line-height: 1.5;
+}
+h1{
+    text-align: center;
+}
+.p1{
+    float: left;
+}
+.p2{
+    float: right;
+}
