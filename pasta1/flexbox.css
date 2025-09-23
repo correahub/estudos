@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.pai {
+  width: 80%;
+  height: 608px;
+  border: 2px solid red;
+  display: flex;
+
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.filho {
+  width: 200px;
+  height: 50px;
+  border: 2px solid aqua;
+
+}
+
+.orde1{
+    order:1 ;
+}
+.orde2{
+    order:2 ;
+}
+
+
+
+
+
+
