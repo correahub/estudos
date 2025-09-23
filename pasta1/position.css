@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+div {
+  width: 300px;
+  height: 100px;
+}
+
+.div1 {
+  background-color: aqua;
+  position: fixed;
+  bottom: 470px;
+  left: 470px;
+  z-index: -1;
+}
+
+.div2 {
+  background-color: black;
+  position: fixed;
+  bottom: 500px;
+  left: 500px;
+  z-index: 0;
+}
+
+.div3 {
+  background-color: blue;
+}
+
+.div4 {
+  background-color: blueviolet;
+}
+.div5 {
+  background-color: brown;
+}
