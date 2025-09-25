@@ -1,13 +1,17 @@
 @charset "UTF-8";
+html,
+body {
+  height: 100%;
+}
 
 body {
   background-color: #0c1013;
   color: white;
-  margin: 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 100px;
 }
 
 .hero-header {
@@ -64,6 +68,8 @@ body {
 
 .hero-main {
   width: 80%;
+  background-color: red;
+  margin-bottom: 50px;
 }
 .main-hero-list {
   display: flex;
@@ -73,12 +79,19 @@ body {
   list-style: none;
   padding: 10px;
   margin: 0px;
+  flex: 1;
 }
 
 .main-hero-list-item {
   background-color: #20262c;
   border-radius: 10px;
-  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.main-hero-list-item-benefit {
+  flex: 1;
 }
 
 .main-hero-list-item-divtitle {
@@ -94,6 +107,8 @@ body {
 .main-hero-list-benefit-item {
   padding: 5px;
   margin: 5px;
+  color: rgba(255, 255, 255, 0.527);
+  line-height: 1.5;
 }
 .main-hero-list-benefit-item::marker {
   color: #cbe202;
@@ -113,9 +128,10 @@ body {
   text-align: center;
   font-weight: bolder;
   text-decoration: none;
+  border-radius: 10px;
 }
 
-.main-hero-list-button-item:hover{
+.main-hero-list-button-item:hover {
   color: #cbe202;
   background-color: #050709;
 }
