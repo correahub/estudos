@@ -54,6 +54,7 @@ body {
   background-color: #cbe202;
   color: black;
   border-radius: 10px;
+  text-decoration: underline;
 }
 
 .hero-header-title {
