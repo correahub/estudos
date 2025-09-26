@@ -3,18 +3,48 @@ html {
 }
 
 h1 {
-  font-size: 3.4em;
+  font-size: 3em;
 }
 
-
-p{
-    font-size: 1.6em;
+p {
+  font-size: 1.6em;
 }
 
-strong{
-    font-size: 2em;
+strong {
+  font-size: 2em;
 }
 
-b{
-    font-size: 32px;
+b {
+  font-size: 32px;
+}
+
+.divzin {
+  width: 100%;
+  background-color: aqua;
+}
+
+.div1 {
+  background-color: yellow;
+  width: 50%;
+  padding-top: 2em;
+}
+
+.div2 {
+  background-color: red;
+  padding-top: 2em;
+  width: 70%;
+}
+
+.div3 {
+  padding-top: 2em;
+  background-color: rgb(255, 0, 234);
+  width: 100%;
+}
+
+.dentro{
+    background-color: black;
+    color: white;
+    width: fit-content;
+    font-size: 5rem;
+    padding: 1em;
 }
