@@ -1,0 +1,37 @@
+@charset "UTF-8";
+html,
+body {
+  height: 100%;
+}
+
+body {
+  max-height: 100%;
+  background: url("imagens/bg-2.jpg") bottom right / cover no-repeat fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+}
+
+.header-principal-item__div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-principal-item__div__h1{
+    font-size: 64px;
+    text-shadow: 2px 1px 2px black;
+}
+
+.header-principal-item__div__p{
+    background-color: rgba(0, 0, 0, 0.466);
+    width: fit-content;
+    padding: 16px;
+    text-shadow: 2px 1px 2px black;
+    font-size: larger;
+}
