@@ -5,7 +5,7 @@ body {
 }
 
 body {
-  max-height: 100%;
+  height: 100%;
   background: url("imagens/bg-2.jpg") bottom right / cover no-repeat fixed;
   display: flex;
   justify-content: center;
@@ -17,21 +17,85 @@ body {
   padding: 0px;
 }
 
-.header-principal-item__div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.header-principal{
+    margin-top: 100px;
 }
 
-.header-principal-item__div__h1{
-    font-size: 64px;
-    text-shadow: 2px 1px 2px black;
+.header-principal-item__div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.header-principal-item__div__p{
-    background-color: rgba(0, 0, 0, 0.466);
-    width: fit-content;
-    padding: 16px;
-    text-shadow: 2px 1px 2px black;
-    font-size: larger;
+.header-principal-item__div__h1 {
+  font-size: 64px;
+  text-shadow: 2px 1px 2px black;
+}
+
+.header-principal-item__div__p {
+  background-color: rgba(0, 0, 0, 0.582);
+  width: fit-content;
+  padding: 16px;
+  text-shadow: 2px 1px 2px black;
+  font-size: larger;
+  border-bottom: 2px solid white;
+}
+
+.main-principal {
+  background-color: white;
+  color: black;
+  width: 80%;
+  max-width: 960px;
+  padding: 20px;
+  margin-bottom: 150px;
+}
+
+.main-principal-item__ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul > li {
+  width: 300px;
+  height: 169px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+ul > li > p {
+  background-color: #393436;
+  color: white;
+  padding: 5px;
+  margin: 0px;
+}
+
+.main-principal-item__ul__li__seletores {
+  background-image: url("imagens/card_01.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.main-principal-item__ul__li__posicionamento {
+  background-image: url("imagens/card_02.jpg");
+}
+.main-principal-item__ul__li__fontes {
+  background-image: url("imagens/card_03.jpg");
+}
+
+.main-principal-item__ul__li__flexbox {
+  background-image: url("imagens/card_04.jpg");
+}
+
+.main-principal-item__ul__li__cssgrid {
+  background-image: url("imagens/card_05.jpg");
+}
+
+.main-principal-item__ul__li__semantica {
+  background-image: url("imagens/card_01.png");
 }
