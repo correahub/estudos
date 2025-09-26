@@ -1,7 +1,7 @@
 @charset "UTF-8";
 html,
 body {
-  height: 100%;
+  min-height: 100%;
 }
 
 body {
@@ -11,12 +11,12 @@ body {
   flex-direction: column;
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
-  margin-bottom: 100px;
 }
 
 .hero-header {
   margin: 0px;
   width: 80%;
+  max-width: 1000px;
 }
 
 .hero-header-div {
@@ -68,18 +68,16 @@ body {
 
 .hero-main {
   width: 80%;
-  background-color: red;
   margin-bottom: 50px;
+  max-width: 1000px;
 }
 .main-hero-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
   list-style: none;
   padding: 10px;
   margin: 0px;
-  flex: 1;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
 }
 
 .main-hero-list-item {
@@ -87,11 +85,7 @@ body {
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  flex: 1;
-}
-
-.main-hero-list-item-benefit {
-  flex: 1;
+  flex-grow: 1;
 }
 
 .main-hero-list-item-divtitle {
@@ -129,6 +123,10 @@ body {
   font-weight: bolder;
   text-decoration: none;
   border-radius: 10px;
+}
+
+.main-hero-list-item-benefit{
+  flex-grow: 1;
 }
 
 .main-hero-list-button-item:hover {
