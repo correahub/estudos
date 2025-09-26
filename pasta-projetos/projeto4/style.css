@@ -90,12 +90,15 @@ body {
 
 .main-hero-list-item-divtitle {
   padding: 15px;
+  margin-bottom: 0px;
 }
 .main-hero-list-title {
   border-bottom: 2px solid #cbe202;
 }
 .main-hero-list-value > span {
   font: bolder x-large arial;
+  margin-bottom: 0px;
+  padding-bottom: 0px   ;
 }
 
 .main-hero-list-benefit-item {
@@ -126,7 +129,7 @@ body {
 }
 
 .main-hero-list-item-benefit{
-  flex-grow: 1;
+  margin-block-end: auto;
 }
 
 .main-hero-list-button-item:hover {
