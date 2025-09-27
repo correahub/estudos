@@ -1,0 +1,14 @@
+@charset "Utf-8";
+
+/*font padrão*/
+@import url("https://fonts.googleapis.com/css2?family=Italiana&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+  font-size: 62.5%;
+  --font__padrao: Roboto;
+  --font__titulo: Italiana;
+  --color__background__Header: #162028;
+  --color__text__menu__header: #425564;
+  --color__text__main: #555;
+  --color__backgroun__footer: #0b171f;
+  --color__text__footer: #6f8597;
+}
