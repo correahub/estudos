@@ -9,16 +9,28 @@
       @font-face {
         font-family: nadia;
         src: url("nadia/nadia-serif.ttf") format("truetype"),
-          url("nadia/nadia-serif.woff") format("woff"),
+          url("nadia/nadia-serif.woff") format("woff");
       }
+      @font-face {
+        font-family: super;
+        src: local("Chuke-five"), local("Chuke Five"),
+          url("ChunkFive-Regular.otf") format("opentype"),
+          url("chunkfive-regular-webfont.woff") format("woff2"),
+          url("chunkfive-regular-webfont.woff") format("woff");
+      }
+
       :root {
         font-size: 62.5%;
       }
-
+      h1 {
+        font-size: 6.4rem;
+        text-align: center;
+        font-family: super;
+      }
       h2 {
         font-size: 6.4rem;
         text-align: center;
-        font-family: "nadia", Arial, Helvetica, sans-serif;
+        font-family: nadia, Arial, Helvetica, sans-serif;
       }
     </style>
   </head>
