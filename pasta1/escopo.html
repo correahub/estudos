@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      :root {
+        --color: red;
+        --color1: lime;
+        --color2: blue;
+        font-size: 62.5%;
+      }
+      .div0 {
+        color: red;
+      }
+
+      .div1 {
+        color: var(--color1);
+      }
+
+      .div2 {
+        color: var(--color2);
+      }
+
+      .mod {
+        width: 20rem;
+        height: 20rem;
+        background-color: var(--color1);
+        margin: 10rem auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>escopo de variveis</h1>
+    <div class="div0">
+      <div class="div1">
+        <p>Testando</p>
+      </div>
+      <div class="div2">
+        <p>Testando</p>
+      </div>
+      <div class="div3">
+        <p>Testando</p>
+      </div>
+      <p>fora do escopo de boas</p>
+    </div>
+
+    <div class="mod"></div>
+  </body>
+</html>
