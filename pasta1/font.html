@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>fontes externas</title>
+    <style>
+      @charset "UTF-8";
+      @font-face {
+        font-family: nadia;
+        src: url("nadia/nadia-serif.ttf") format("truetype"),
+          url("nadia/nadia-serif.woff") format("woff"),
+      }
+      :root {
+        font-size: 62.5%;
+      }
+
+      h2 {
+        font-size: 6.4rem;
+        text-align: center;
+        font-family: "nadia", Arial, Helvetica, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Olá,mundo</h1>
+    <h2>Olá,mundo</h2>
+  </body>
+</html>
