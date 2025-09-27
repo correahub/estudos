@@ -1,0 +1,17 @@
+@charset "UTF-8";
+:root {
+  font-size: 62.5%;
+}
+.divzin {
+  width: 10rem;
+  height: 10rem;
+  background-color: orange;
+  margin: 10rem;
+  transition: width 0.3s ease-in 0.3s, height 0.6s ease-in 0.6s;
+}
+
+.divzin:hover {
+  width: 20rem;
+  height: 20rem;
+  background-color: red;
+}
