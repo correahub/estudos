@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+html {
+  font-size: 62.5%;
+  --header-height: 15rem;
+}
+body {
+  margin: 0px;
+}
+header {
+  background-color: rgba(255, 0, 0, 0.342);
+  font-size: 1rem;
+  width: 100%;
+  min-height: var(--header-height);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+main {
+  background-color: rgba(255, 255, 255, 0.589);
+  width: 100%;
+  margin-top: var(--header-height);
+  min-height: calc(100vh - var(--header-height) - 2rem);
+}
+footer {
+  background-color: aqua;
+  font-size: 1rem;
+  height: 10em;
+}
