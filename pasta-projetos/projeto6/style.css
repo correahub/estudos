@@ -20,18 +20,19 @@ body {
 body {
   margin: 0px;
 }
+
+/*HEADER*/
 .header-main {
   background-color: var(--color__background__Header);
-  width: 100%;
 }
 
-.header-main-item__section {
-  display: flex;
-  justify-content: center;
+.section-img {
+  width: 100%;
+  height: 48.8rem;
 }
 
 .header-main-item__section__article {
-  width: 80%;
+  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -64,3 +65,4 @@ body {
   background-color: var(--color__text__menu__header);
   color: var(--color__background__Header);
 }
+/*MAIN*/
