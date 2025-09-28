@@ -12,3 +12,55 @@
   --color__backgroun__footer: #0b171f;
   --color__text__footer: #6f8597;
 }
+
+html,
+body {
+  min-height: 100%;
+}
+body {
+  margin: 0px;
+}
+.header-main {
+  background-color: var(--color__background__Header);
+  width: 100%;
+}
+
+.header-main-item__section {
+  display: flex;
+  justify-content: center;
+}
+
+.header-main-item__section__article {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-main-item__section__div {
+  color: white;
+  font: 700 3.2rem var(--font__titulo);
+}
+
+.header-main-item__section__nav__ul {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-main-item__section__nav__li {
+  list-style: none;
+}
+
+.header-main-item__section__nav__li__a {
+  text-decoration: none;
+  color: var(--color__text__menu__header);
+  letter-spacing: 0.3rem;
+  padding: 1.7rem;
+}
+.header-main-item__section__nav__li__a:hover {
+  background-color: var(--color__text__menu__header);
+  color: var(--color__background__Header);
+}
