@@ -17,17 +17,20 @@
         <nav class="hero-header-item__section__nav">
           <ul class="header-item__section__nav__ul">
             <li class="header-item__section__nav__ul__li">
-              <a href="#" class="header-item__section__nav__ul__li__a">
+              <a href="#Cursos" class="header-item__section__nav__ul__li__a">
                 Cursos
               </a>
             </li>
             <li class="header-item__section__nav__ul__li">
-              <a href="#" class="header-item__section__nav__ul__li__a">
+              <a
+                href="#NossaEscola"
+                class="header-item__section__nav__ul__li__a"
+              >
                 Nossa Escola
               </a>
             </li>
             <li class="header-item__section__nav__ul__li">
-              <a href="#" class="header-item__section__nav__ul__li__a">
+              <a href="#Contatos" class="header-item__section__nav__ul__li__a">
                 Contatos
               </a>
             </li>
@@ -47,6 +50,7 @@
             </h1>
             <a href="#" class="main-hero-item__div__p"> Saiba Mais </a>
           </div>
+
           <div class="main-hero-item__2div">
             <img
               src="imagens/HeroImage.png"
@@ -58,7 +62,7 @@
       </section>
 
       <section class="main-hero-item__1section">
-        <h2 class="main-hero-item__1section__h2">Principais Cursos</h2>
+        <h2 id="Cursos" class="main-hero-item__1section__h2">Principais Cursos</h2>
         <ul class="main-hero-item__1section__h2__ul">
           <li class="main-heri-item__section__ul__li">
             <article class="main-hero-item__1section__ul__li__article">
@@ -70,7 +74,7 @@
                 <h3 class="main-hero-item__1section__ul__li__article__div__h3">
                   Design para webG
                 </h3>
-                <p class="main-hero-item__1section__ul__li__article__div">
+                <p class="main-hero-item__1section__ul__li__article__div_p">
                   O curso Design para Web é perfeito para aqueles que desejam
                   aprender a criar designs atraentes e funcionais para sites e
                   aplicativos móveis.
@@ -89,7 +93,7 @@
                 <h3 class="main-hero-item__1section__ul__li__article__div__h3">
                   Front End Developer
                 </h3>
-                <p class="main-hero-item__1section__ul__li__article__div">
+                <p class="main-hero-item__1section__ul__li__article__div_p">
                   Aprenda HTML, CSS e Javascript e crei interfaces ricas e
                   semânticas para páginas web, aplicativos on-line ou até mesmo
                   aplicações para aparelhos celulares
@@ -108,7 +112,7 @@
                 <h3 class="main-hero-item__1section__ul__li__article__div__h3">
                   Back End Developer
                 </h3>
-                <p class="main-hero-item__1section__ul__li__article__div">
+                <p class="main-hero-item__1section__ul__li__article__div_p">
                   Com este curso você vai dominar uma linguagem back-end a sua
                   escolha, um sistema de banco de dados e aprenderá como
                   funciona o protocolo HTTP na prática
@@ -127,7 +131,7 @@
               alt="Imagem de exemplo rosto de uma jovem sorrindo"
             />
           </div>
-          <div class="main-hero-item__2section__aside__div">
+          <div id="NossaEscola" class="main-hero-item__2section__aside__div">
             <h2 class="main-hero-item__2section__aside__div__h2">
               Nossa escola
             </h2>
@@ -150,21 +154,24 @@
         <aside class="main-hero-item__3section__aside">
           <div class="main-hero-item__3section__aside__div">
             <h2 class="main-hero-item__3section__aside__div__h2">Contatos</h2>
-            <img
-              class="main-hero-item__3section__aside__div__img"
-              src="imagens/map.png"
-              alt="#"
-            />
-
-            
+            <iframe
+              class="main-hero-item__3section__aside__div__iframe"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29666.956524505895!2d-41.757818340258794!3d-21.649476583448944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbdb20fe96d2707%3A0xb7d6e8466467136f!2zU8OjbyBGaWTDqWxpcyAtIElwdWNhLCBTw6NvIEZpZMOpbGlzIC0gUkosIDI4NDAwLTAwMA!5e0!3m2!1spt-BR!2sbr!4v1759180584264!5m2!1spt-BR!2sbr"
+              width="80%"
+              height="500"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
           <div class="zin">
-              <p class="main-hero-item__3section__aside__p">
-                Av. da Liberdade, 1001 <br />
-                Tel.: +351 21 123 456 <br />
-                E-mail: contato@aprenser.com
-              </p>
-            </div>
+            <address id="Contatos" class="main-hero-item__3section__aside__address">
+              Av. da Liberdade, 1001 <br />
+              Tel.: +351 21 123 456 <br />
+              E-mail: contato@aprenser.com
+            </address>
+          </div>
         </aside>
       </section>
     </main>
