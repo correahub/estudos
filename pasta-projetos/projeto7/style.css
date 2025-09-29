@@ -1,1 +1,14 @@
 @charset "UTF-8";
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+:root {
+  font-size: 62.5%;
+}
