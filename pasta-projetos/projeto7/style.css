@@ -94,7 +94,7 @@ body {
   font-size: 1.6rem;
   font-weight: 700;
   padding: 1rem;
-  width: 50%;
+  width: 20rem;
   text-align: center;
   text-decoration: none;
 }
@@ -160,12 +160,68 @@ body {
   font-size: 1.6rem;
   font-weight: 700;
   padding: 1rem;
-  width: 24rem;
+  width: 20rem;
   text-align: center;
   text-decoration: none;
+  margin-bottom: 2rem;
 }
 
 .main-hero-item__1section__a:hover {
   background-color: #111111;
   color: #ffd000;
+}
+
+/********2section**********************/
+.main-hero-item__2section {
+  background-color: #003463;
+  margin-top: 1rem;
+}
+.main-hero-item__2section__aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 3rem;
+}
+
+.main-hero-item__2section__aside__div__h2 {
+  font-size: 3.2rem;
+}
+
+.main-hero-item__2section__aside__div {
+  display: flex;
+  flex-direction: column;
+}
+.main-hero-item__2section__aside__div__p {
+  font-size: 2rem;
+  width: 80%;
+}
+
+/**************************************/
+
+.main-hero-item__3section__aside__div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-hero-item__3section__aside__div__h2 {
+  font-size: 3.2rem;
+}
+.zin {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5%;
+}
+
+/**********************************/
+.footer-hero{
+    background-color: #2a2a2a;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+.footer-hero-item__p{
+    font-size: 1.6rem;
+    font-weight: bolder;
 }
