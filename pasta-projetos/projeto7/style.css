@@ -58,7 +58,7 @@ body {
   color: #2a2a2a;
   font-weight: bolder;
 }
-/*----------------------------------------------------*/
+/*--------------------0section--------------------------------*/
 .main-hero-item__0section {
   background-image: linear-gradient(
     to bottom,
@@ -108,4 +108,64 @@ body {
   margin: 0px;
   padding: 0px;
   text-transform: capitalize;
+}
+/*********************1section************************/
+.main-hero-item__1section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-hero-item__1section__h2 {
+  font-size: 3.2rem;
+}
+
+.main-hero-item__1section__h2__ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-hero-item__1section__ul__li__article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.main-hero-item__1section__ul__li__article > img {
+  width: 40rem;
+  height: 20rem;
+}
+
+.main-hero-item__1section__ul__li__article__div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  text-align: center;
+}
+.main-hero-item__1section__ul__li__article__div__h3 {
+  font-size: 2rem;
+}
+.main-hero-item__1section__ul__li__article__div {
+  font-size: 1.6rem;
+}
+
+.main-hero-item__1section__a {
+  background-color: #ffd000;
+  color: #111111;
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding: 1rem;
+  width: 24rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.main-hero-item__1section__a:hover {
+  background-color: #111111;
+  color: #ffd000;
 }
