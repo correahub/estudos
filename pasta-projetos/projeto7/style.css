@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url("https://fonts.googleapis.com/css2?family=Italiana&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
 html,
 body {
   min-height: 100%;
@@ -7,8 +9,47 @@ body {
 
 body {
   margin: 0;
+  font-family: "Roboto";
 }
 
 :root {
   font-size: 62.5%;
+}
+
+.hero-header {
+  background-color: #2a2a2a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-header-item__section {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-header-item__section__div {
+  margin-bottom: 2rem;
+}
+.header-item__section__nav__ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.header-item__section__nav__ul__li__a {
+  color: #fed001;
+  font-size: 1.6rem;
+  text-decoration: none;
+  background-color: #2a2a2a;
+  padding: 1rem;
+  outline: 0.1rem solid #fed001;
+  letter-spacing: 0.2rem;
+}
+.header-item__section__nav__ul__li__a:hover{
+    background-color: #fed001;
+    color: #2a2a2a;
+    font-weight: bolder;
 }
