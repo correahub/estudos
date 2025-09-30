@@ -115,6 +115,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0.6rem 1rem 0px 1rem;
 }
 .main-hero-item__1section__h2 {
   font-size: 3.2rem;
@@ -126,35 +127,43 @@ body {
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  margin: 0px 0px 1rem 0px;
+  padding: 0px;
+
 }
 
 .main-heri-item__section__ul__li {
   border-radius: 1rem;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.281), -1px -1px rgba(0, 0, 0, 0.281);
+  flex: 1;
 }
 .main-hero-item__1section__ul__li__article {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-grow: 1;
+  
 }
-.main-hero-item__1section__ul__li__article > img {
-  width: 40rem;
-  height: 20rem;
+
+.test{
+  width: 100%;
 }
 
 .main-hero-item__1section__ul__li__article__div {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 39.9rem;
-  text-align: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+  
+  
 }
 .main-hero-item__1section__ul__li__article__div__h3 {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 .main-hero-item__1section__ul__li__article__div {
+  box-sizing: border-box;
+  padding: 1rem;
   font-size: 1.6rem;
 }
 
@@ -167,7 +176,6 @@ body {
   width: 20rem;
   text-align: center;
   text-decoration: none;
-  margin-bottom: 2rem;
 }
 
 .main-hero-item__1section__a:hover {
@@ -178,7 +186,7 @@ body {
 /********2section**********************/
 .main-hero-item__2section {
   background-color: #003463;
-  margin-top: 1rem;
+  padding-top: 0.6rem;
 }
 .main-hero-item__2section__aside {
   display: flex;
@@ -219,7 +227,7 @@ body {
   padding: 2rem;
 }
 
-.main-hero-item__3section__aside__address{
+.main-hero-item__3section__aside__address {
   font-size: 1.6rem;
 }
 
