@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Emanuel Soares Corrêa" />
+    <meta
+      name="description"
+      content="Página de Lógin. Por favoe digite seu usuário e sua senha no campo."
+    />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="formu1.css" />
+    <title>Painel de Login</title>
+  </head>
+  <body>
+    <header class="hero-header">
+      <h1 class="hero-header_h1">Login</h1>
+    </header>
+    <main class="main-hero">
+      <form class="main-hero_form" method="get">
+        <fieldset class="main-hero_form_fieldset">
+          <legend class="main-hero_form_fieldset_legend">
+            Entre com seus dados de Acesso
+          </legend>
+          <section class="main-hero_form_fieldset_section1">
+            <label class="main-hero_form_fieldset_section1_label" for="Login"
+              >Usuário</label
+            >
+            <input
+              class="main-hero_form_fieldset_section1_input"
+              type="text"
+              id="Login"
+              name="login"
+              placeholder="Digite seu Usuário"
+              required
+              autofocus
+            />
+          </section>
+          <section class="main-hero_form_fieldset_section2">
+            <label for="Senha" class="main-hero_form_fieldset_section2_label">
+              Senha
+            </label>
+            <input
+              class="main-hero_form_fieldset_section2_label_input"
+              type="password"
+              name="senha"
+              required
+              placeholder="Digite sua Senha"
+              id="Senha"
+            />
+          </section>
+          <button type="submit">Entrar</button>
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>
