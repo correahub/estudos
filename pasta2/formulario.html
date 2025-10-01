@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formulario</title>
-</head>
-<body>
-    <h1>
-        Formulario
-    </h1>
-    <form action="#" method="get">
-        <input type="text">
-        <input type="submit" value="Enviar Informações">
+  </head>
+  <body>
+    <h1>Formulario</h1>
+    <form method="get">
+      <fieldset>
+        <legend>LOGIN</legend>
+        <label for="Nome">Nome:</label>
+        <input type="text" name="nome" id="Nome" /> <br>
+        <label for="Senha">Senha:</label>
+        <input type="password" name="senha" id="Senha" />
 
+        <br />
+
+        <input type="submit" value="Login" />
+      </fieldset>
     </form>
-    
-</body>
+  </body>
 </html>
