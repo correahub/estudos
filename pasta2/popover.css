@@ -1,0 +1,88 @@
+:root {
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  width: 50rem;
+  margin: auto;
+  background-color: white;
+  padding: 2rem;
+  margin-top: 2rem;
+  border-radius: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2.3rem;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+body {
+  background-color: #cfcdcd;
+}
+
+.hero-main_1section {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.377);
+}
+.hero-main_1section_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.botão {
+  font-size: 1.6rem;
+  padding: 1rem;
+  font-weight: bolder;
+  color: white;
+  background-color: #007afe;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.botão:hover {
+  border: 1px solid #007afe;
+  color: #007afe;
+  background-color: white;
+}
+
+.popover-box {
+  background-color: #007afe;
+  inset: unset;
+  top: 10rem;
+  left: 50%;
+
+  transform: translate(-50%);
+}
+
+.popover-box > p {
+  color: white;
+  font-weight: bolder;
+}
+
+.divzin {
+  display: flex;
+  justify-content: center;
+}
+
+.buton {
+  font-size: 1.6rem;
+  padding: 1rem;
+  font-weight: bolder;
+  color: #007afe;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+::backdrop{
+    background-color: gray;
+}
