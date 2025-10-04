@@ -8,7 +8,60 @@
     <link rel="stylesheet" href="norma.css" />
     <link rel="stylesheet" href="style.css" />
 
-    <title>Formulario</title>
+    <title>Formulario de Contato</title>
   </head>
-  <body></body>
+  <body>
+    <main>
+      <form method="get" enctype="application/x-www-form-urlencoded">
+        <fieldset>
+          <legend>Formuário de Contato</legend>
+          <label>
+            Nome
+            <input
+              type="text"
+              name="nome"
+              required
+              placeholder="Digite Seu nome"
+            />
+          </label>
+
+          <label>
+            Email
+            <input
+              type="email"
+              name="email"
+              required
+              placeholder="Digite Seu Email"
+            />
+          </label>
+
+          <label>
+            Assunto
+            <input
+              type="text"
+              name="assunto"
+              required
+              placeholder="Digite o Assunto"
+            />
+          </label>
+          <section>
+            <label for="Menssagem"> Menssagem </label>
+            <div>
+              <textarea
+                name="menssagem"
+                id="Menssagem"
+                placeholder="Digite a Menssagem"
+                rows="10"
+                cols="10"
+                maxlength="550"
+              ></textarea>
+            </div>
+            <div class="divt">
+              <button type="submit">Enviar</button>
+            </div>
+          </section>
+        </fieldset>
+      </form>
+    </main>
+  </body>
 </html>
