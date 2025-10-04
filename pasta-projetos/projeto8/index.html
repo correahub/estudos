@@ -13,11 +13,11 @@
   <body>
     <main>
       <form method="get" enctype="application/x-www-form-urlencoded">
-        <fieldset>
+        <fieldset >
           <legend>Formuário de Contato</legend>
           <label>
             Nome
-            <input
+            <input autocomplete="on"
               type="text"
               name="nome"
               required
@@ -54,6 +54,8 @@
                 rows="10"
                 cols="10"
                 maxlength="550"
+                minlength="50"
+                required
               ></textarea>
             </div>
             <div class="divt">

@@ -20,6 +20,8 @@ body {
 
 form {
   background-color: #0d100f;
+  border: 0px;
+  margin: 0px;
 }
 
 fieldset {
@@ -73,10 +75,20 @@ textarea {
   outline: none;
   resize: none;
   background-color: #0a0a0a;
+  color: white;
 }
 
 textarea:focus {
   background-color: #292728;
+}
+
+textarea:focus:invalid {
+  border-color: red;
+}
+
+textarea:focus:valid,
+textarea:valid {
+  border-color: lime;
 }
 
 button {
