@@ -6,23 +6,34 @@
     <title>meter</title>
   </head>
   <body>
-    <label>
-      Temperatura:
+    <form action="">
+      <label>
+        Temperatura:
+        <hr />
+        <meter
+          name="temperatura"
+          min="0"
+          max="100"
+          low="30"
+          high="90"
+          optimum="50"
+          value="98"
+        ></meter>
+        <hr />
+      </label>
+      <label>
+        Carregando:
+        <progress max="10" value="1">1%</progress>
+      </label>
+      <hr />
+    </form>
+
+    <form oninput="result.value = a.value * b.value">
+      <input type="number" name="a" id="a" />
       <br />
-      <meter
-        name="temperatura"
-        min="0"
-        max="100"
-        low="30"
-        high="90"
-        optimum="50"
-        value="98"
-      ></meter>
-      <br />
-    </label>
-    <label>
-      Carregando:
-      <progress max="10" value="1">1%</progress>
-    </label>
+      x <br />
+      <input type="number" name="b" id="b" /> =
+      <output name="result" for="a b"> </output>
+    </form>
   </body>
 </html>
