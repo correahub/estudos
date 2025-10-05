@@ -18,6 +18,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+main {
+  width: 60%;
+  margin: 0;
+  padding: 0;
+}
+
 form {
   background-color: #0d100f;
   border: 0px;
@@ -25,21 +31,23 @@ form {
 }
 
 fieldset {
-  border: none;
-  padding: 1rem;
+  border: 0;
 }
 
 legend {
   text-align: center;
-  font-size: 3.2rem;
+  font-size: 3.5vw;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
 }
 
 input {
   background-color: #0a0a0a;
   color: white;
-  border: none;
+  border: 0;
   border-bottom: 2px solid white;
-  outline: none;
+  outline: 0;
   border-color: white;
   margin-top: 1rem;
   padding: 1rem;
@@ -56,10 +64,6 @@ input:valid {
   border-color: lime;
 }
 
-main {
-  width: 60%;
-}
-
 label {
   font-size: 1.6rem;
   display: flex;
@@ -70,9 +74,9 @@ label {
 textarea {
   font-size: 1.6rem;
   width: 100%;
-  border: none;
+  border: 0;
   border-bottom: 2px solid white;
-  outline: none;
+  outline: 0;
   resize: none;
   background-color: #0a0a0a;
   color: white;
@@ -93,10 +97,10 @@ textarea:valid {
 
 button {
   font-size: 1.6rem;
-  padding: 1rem;
+  padding: 1.5rem;
   background-color: #292728;
   color: white;
-  border: none;
+  border: 0;
   cursor: pointer;
   margin-top: 1rem;
 }
