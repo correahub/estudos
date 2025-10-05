@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/config/normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <form class="formulario-hero">
+      <fieldset class="formulario-hero_fieldset">
+        <legend class="formulario-hero_fieldset_legend">Login</legend>
+        <label class="formulario-hero_fieldse_label">
+          Usuário
+          <input
+            class="formulario-hero_fieldse_label_input"
+            type="text"
+            name="login"
+            required
+            minlength="5"
+            maxlength="10"
+          />
+        </label>
+
+        <label class="formulario-hero_fieldse_label">
+          Senha
+          <input
+            class="formulario-hero_fieldse_label_input"
+            type="password"
+            name="password"
+            required
+            min="5"
+            max="10"
+          />
+        </label>
+
+        <section class="formulario-hero_section">
+          <div class="formulario-hero_section_div">
+            <button type="submit" class="formulario-hero_section_buttonlogin">
+              Login
+            </button>
+
+            <a
+              class="formulario-hero_section_linkcadastre"
+              href="/cadastro/index.html"
+              >Cadastre-se</a
+            >
+          </div>
+
+          <a class="formulario-hero_section_linkesqueci" href="#"
+            >Esqueci minha senha</a
+          >
+        </section>
+      </fieldset>
+    </form>
+  </body>
+</html>
