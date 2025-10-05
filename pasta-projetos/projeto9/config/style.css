@@ -23,6 +23,7 @@ body {
   font-size: 1.6rem;
   background-color: #ffffff;
   padding: 1rem;
+  box-shadow: -10px 0px 6px rgba(0, 0, 0, 0.452);
 }
 
 .formulario-hero_fieldset {
