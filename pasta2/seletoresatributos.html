@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>atributos</title>
+    <style>
+      /*tag[propriedade="valor"] - seletor de tag por propriedade especifica*/
+      /*tag^[proeidade="valor"] - seletor  de  tag proeidade especifica inicial*/
+      /*tag$[proriedade="valor"] - seletor de tag propriedade especifica ultima */
+      /*tag:not(item selecionado) - seletor de tag espficido que ignora, partes dele.*/
+
+      a:not(a[href="#$"]) {
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <a class="az" href="#$"> fogo </a>
+    <br />
+    <a href="$"> fogo </a>
+    <p>olá</p>
+  </body>
+</html>
