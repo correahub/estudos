@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* p a - seletor de descentens - seleciona todo a que esteja dentro de um p, não importando seu nível*/
+      /* p > a - seletor de filhos diretos. seleciona todo a que é filho direto de um p*/
+      /*p + a - seletor de irmãos diretos - seleciona todo a que vem logo em seguida do p*/
+      /*h1 ~ p seletor de irmãos próximos- Seleciona todos os p que vem depois de um h1, sendo eles diretos ou indiretos*/
+      article h1 ~ p {
+        background-color: lime;
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <!--Descendentes-->
+    <article>
+      <h1>zin</h1>
+      <p><a href="#">Volume</a><b>com coração</b></p>
+      <p><a href="#">Volume</a><b>com coração</b></p>
+      <p><a href="#">Volume</a><b>com coração</b></p>
+      <h2>tudo bem</h2>
+      <p>tudo bem</p>
+    </article>
+  </body>
+</html>
