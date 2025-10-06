@@ -88,3 +88,10 @@ body {
 .formulario-hero_section_linkesqueci {
   font-size: 1.3rem;
 }
+
+.divzinha{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
