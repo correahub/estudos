@@ -1,0 +1,24 @@
+a[target="_blank"]::after {
+  content: url("/imagens/newWindow-icon.png");
+}
+
+a[href="qq.pdf"]::before {
+  content: url("/imagens/pdf-icon.gif");
+}
+
+input[name="chk1"]:checked + label[for="chk1"] {
+  color: lime;
+}
+
+input[name="chk1"]:not(:checked) + label[for="chk1"] {
+  color: red;
+}
+
+input[disabled] + label[for="chk2"] {
+  color: blue;
+}
+
+ol > li:nth-child(4) > ul:first-child > li:nth-child(3) {
+  background-color: red;
+  color: yellow;
+}
