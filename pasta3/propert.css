@@ -1,0 +1,23 @@
+@property --largura {
+  syntax: "<lenght-percentage>";
+  inherits: false;
+  initial-value: 50%;
+}
+
+@property --color {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: lime;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  transition: background-color 2s, width 1s;
+}
+
+div:hover {
+  background-color: var(--color);
+  width: var(--largura);
+}
